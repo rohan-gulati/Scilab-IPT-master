@@ -117,6 +117,33 @@ names = [
             "raw_xyz2rgb", "opencv_xyz2rgb";
             "raw_xyz2uint16", "opencv_xyz2uint16";
 
+			"deconvlucy", "opencv_deconvlucy";
+			"imhistmatch", "opencv_imhistmatch";
+			"graycoprops", "opencv_graycoprops";
+			"graydiffweight", "opencv_graydiffweight";
+			"decorrstretch", "opencv_decorrstretch";
+			"adaptf", "opencv_adapthisteq";
+			"affine2d", "opencv_affine2d";
+
+
+			"approxpolyDP","approxpolyDP";
+			"arclenght","arclenght";
+			"bilateralfilter","bilateralfilter";
+			"borderInterpolate","borderInterpolate";
+			"boxfilter","boxfilter";
+			"contourarea","contourarea";
+			"boxfilter","boxfilter";
+			"fitellipse","fitellipse";
+			"getkerneltype","getkerneltype";
+			"histeq","histeq";
+			"imrotate","imrotate";
+			"mean1","mean1";
+			"minAreaRect","minAreaRect";
+			"minimumenclosingcirlce","minimumenclosingcirlce";
+			"pyrMeanShiftFiltering","pyrMeanShiftFiltering";
+			"rgb2gray","rgb2gray";
+			"warpaffine","warpaffine";
+
 
 			
 		];
@@ -238,6 +265,35 @@ files = [
             "opencv_xyz2lab.cpp",
             "opencv_xyz2rgb.cpp",
             "opencv_xyz2uint16.cpp",
+
+
+	    	"opencv_deconvlucy.cpp",
+			"opencv_integralImage.cpp",
+			"opencv_imhistmatch.cpp",
+			"opencv_graycoprops.cpp",
+			"opencv_graydiffweight.cpp",
+			"opencv_decorrstretch.cpp",
+			"opencv_adapthisteq.cpp",
+			"opencv_affine2d.cpp",
+
+			"rgb2gray.cpp",
+			"warpaffine.cpp",
+			"opencv_pyrMeanShiftFiltering.cpp",
+			"opencv_minimumenclosingcirlce.cpp",
+			"opencv_minAreaRect.cpp",
+			"opencv_mean1.cpp",
+			"opencv_imrotate.cpp",
+			"opencv_getkerneltype.cpp",
+			"opencv_fitellipse.cpp",
+			"opencv_contourarea.cpp",
+			"opencv_boxfilter.cpp",
+			"opencv_borderInterpolate.cpp",
+			"opencv_bilateralfilter.cpp",
+			"opencv_arclength.cpp",
+			"opencv_approxpolyDP.cpp",
+			"opencv_histeq.cpp",
+
+
 
 		];
 
